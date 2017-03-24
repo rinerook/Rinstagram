@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 # image uploading functionality
 gem "paperclip", "~> 5.0.0"
+gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
@@ -13,6 +14,7 @@ gem 'rails', '~> 5.0.2'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+gem 'bootstrap-sass', '~> 3.3.6'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
