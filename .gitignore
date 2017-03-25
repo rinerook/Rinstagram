@@ -20,5 +20,5 @@
 # Ignore Byebug command history file.
 .byebug_history
 
-#paperclip
+# paperclip don't upload pictures from development
 /public/system/posts/*
